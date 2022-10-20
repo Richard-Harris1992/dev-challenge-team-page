@@ -1,0 +1,67 @@
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-weight: 900;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+.group1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.group2 {
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.group3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.group2 > figure {
+   height: 315px;
+}
+
+span{
+    writing-mode: vertical-lr;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+figcaption {
+    font-weight: 900;
+}
+
+figure > div {
+    display: flex;
+
+}
+
+figure {
+    width: 305px;
+    height: 471px;
+}
+
+img {
+    width: 238px;
+    height: 341px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 100px;
+}
